@@ -1,21 +1,26 @@
-# E-commerce App with React
+# E-commerce App with React and Modal Cart
 
-## Technologies Used:
-- ReactJS
-- React Router
-- TailwindCSS
-- Fake Store API
-- 
-## Features:
-- View products from Fake Store API
-- Add items to the cart
-- View cart with quantity and total
-- Remove items from the cart
-- Apply 10% discount on the total price
+## Overview
+This React app allows users to browse products, add them to a shopping cart, and view the cart in a modal. It uses the **Fake Store API** for product data and **TailwindCSS** for styling.
 
-## How to Run:
-1. Clone the repository
-2. Run `npm install` to install dependencies
-3. Run `npm start` to start the development server
+## Features
+- View products fetched from the Fake Store API.
+- Add products to the cart with an "Add to Cart" button.
+- Display an alert when the product is already in the cart.
+- View the cart in a modal with the option to remove items.
+- Cart item count displayed in the navigation bar.
 
-Visit [http://localhost:3000](http://localhost:3000) to use the app.
+## Technologies Used
+- **ReactJS**: For building the user interface.
+- **TailwindCSS**: For styling.
+- **Fake Store API**: For product data.
+- **Axios**: For fetching data from the Fake Store API.
+
+## Installation
+1. Clone the repository:
+   ```bash
+   git clone https://github.com/your-username/e-commerce-modal-cart.git
+   cd e-commerce-modal-cart
+2. Install dependencies: npm install
+3. Start the app: npm start
+4. The application will be available at http://localhost:3000.
