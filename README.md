@@ -4,9 +4,8 @@
 - ReactJS
 - React Router
 - TailwindCSS
-- Axios
 - Fake Store API
-
+- 
 ## Features:
 - View products from Fake Store API
 - Add items to the cart
